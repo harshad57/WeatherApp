@@ -1,0 +1,145 @@
+ <style>
+        html{
+            height: 100%;
+        }
+   
+        body{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image:linear-gradient(90deg,#7f00ff,#e100ff);
+           }
+        
+        .container{
+            margin-top: 10%;
+        color:white;
+  backdrop-filter:blur(100px);
+background-color:rgba(0,0,0,0.3); 
+font-family: 'Oswald', sans-serif;    
+        padding: 30px;    
+        font-weight:bold;   
+       border-radius: 10px; 
+       }
+     
+        .input_box{
+            display:flex;
+            justify-content:center;
+            gap:7px;
+       }
+       
+       .input{
+           border-radius: 10px;
+        padding:0px 15px;   
+        font-size:19px; 
+        font-weight:bold;
+       border:0;
+       color:white;
+       font-family:serif;  
+background: rgba(173,216,230,0.3);
+        width: 100%;
+       }
+       
+       ::placeholder{
+           color:rgba(255, 255, 255, 0.562);
+       }     
+         
+       .search{
+background: rgba(173,216,230,0.3);
+           color:white;
+           flex:1;
+           border-radius: 10px;
+           padding: 16px;
+           border:0;
+           text-align:center;  
+           cursor: pointer;          
+       }
+       
+       .search:active{
+background: rgba(100,200,230,0.6);
+       }
+                            
+       .search i{
+           font-size:20px; 
+           transition: .3s linear; 
+       }
+
+       .search:hover i{
+        transform: rotateY(180deg);
+       }
+       
+       .error{
+        width: 400px;
+           display:flex;   
+           place-items: center;
+           justify-content:center;  
+           flex-direction:column;
+           margin:0;
+           font-size:25px;
+           text-align:center;     
+           gap:10px;  
+           color:pink;
+           display:none;
+        }
+        
+        .error img{
+            width: 100%;
+        }
+              
+       .cel_con{
+       margin-bottom:40px;
+       text-align:center;
+       }
+       
+      .image{
+           width: 200px;
+           margin:23px 0px 3px;
+       }
+     
+       .celcius{
+           font-size:50px;   
+ font-family: 'Oswald', sans-serif;
+       }   
+       
+       .description{
+           font-size:30px;
+           font-family:serif;
+   text-transform:capitalize;  
+   margin-top:5px;   
+       }   
+       
+       .fix{
+           display:flex;
+     justify-content:space-between;
+     margin-top:40px;
+       }
+       
+       .humidity, .wind{
+           text-align:center;  
+       }   
+               
+       .humidity i{
+           font-size:30px;
+           color:cyan;
+       }
+       
+       .wind i{
+           font-size:32px;
+           color:cyan;
+           float:center;       }
+       
+       .b1,.b2{
+       display:flex;          
+       gap:10px;
+       margin-bottom:3px; 
+       text-align:center;       }
+       
+       .hum-per{
+           font-size:22px;
+       }
+       
+       .wind_km{
+           font-size:22px;
+       }
+    </style>

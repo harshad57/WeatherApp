@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Source+Code+Pro:wght@400;700&family=Oswald:wght@400;700&family=Fira+Mono:wght@400;700&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+   <link href="src/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="input_box">
+ <input type="text" class="input" placeholder="Enter your location">
+     <button class="search">  <i class="fas fa-search icon"></i></button>
+        </div>
+        
+        <div class="error">
+      <img src="src/images/error.jpg" alt="error">
+      <div>search result not found</div>
+        </div>
+        
+        <div class="weather">
+        <div class="cel_con">
+     <img src="" class="image">
+    <div class="celcius">0<sup style="font-weight:normal;">°c</sup></div>
+    <div class="description">description</div>
+        </div>
+        
+        <hr size=6 color=black >
+        
+        <div class="fix">
+            <div class="humidity">
+                <div class="b1">
+   <i class="fas fa-tint icon"></i>
+     <div class="hum-per">0%</div>
+     </div>
+<div style="font-size:19px;">Humidity</div>
+            </div>
+            
+            <div class="wind">
+                <div class="b2">
+  <i class="fas fa-wind icon"></i>
+                 <div class="wind_km">0 km/h</div>
+                 </div>
+ <div style="font-size:19px;">Wind Speed</div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="src/script.js"> 
+          </script>
+</body>
+</html>
