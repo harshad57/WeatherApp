@@ -1,4 +1,4 @@
-live :- [WeatherApp](https://weather-app-harshad57.vercel.app)
+live :- [Weather App](https://weather-app-harshad57.vercel.app)
 # Weather Application
 
 This project is a simple web-based weather application that fetches and displays real-time weather data based on user input. It provides information such as temperature, weather description, humidity, and wind speed using the [OpenWeatherMap](https://openweathermap.org/) API.
