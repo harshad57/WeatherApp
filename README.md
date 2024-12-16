@@ -5,8 +5,8 @@ This project is a simple web-based weather application that fetches and displays
 
 ## Features :-
 
-- **📍 Location Input** : Allows users to enter a city name to get the weather information.
-- **🌡️ Current Weather Data** : Displays the current temperature, weather description, humidity, and wind speed for the entered location.
+- ** 📍 Location Input** : Allows users to enter a city name to get the weather information.
+- ** 🌡️ Current Weather Data** : Displays the current temperature, weather description, humidity, and wind speed for the entered location.
 - **🌤️ Weather Icons** : Shows relevant weather icons based on the current weather condition (e.g., Clear, Cloudy, Rain).
 
 ## JavaScript Features :-
