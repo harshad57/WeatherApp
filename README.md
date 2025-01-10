@@ -9,7 +9,7 @@ This project is a simple web-based weather application that fetches and displays
 - **🌡️ Current Weather Data** : Displays the current temperature, weather description, humidity, and wind speed for the entered location.
 - **🌤️ Weather Icons** : Shows relevant weather icons based on the current weather condition (e.g., Clear, Cloudy, Rain).
 
-## JavaScript Features :-
+## [JavaScript](style.css) Features :-
 
 - **✅ Input Validation** : Prevents empty searches and prompts users to enter a valid city name.
 - **🚨 Error Handling** : Displays error messages if the city is not found or if there’s an issue with the API request.
